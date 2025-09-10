@@ -1,6 +1,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, current_timestamp
 
+
+#testing new pull request
 # Initialize Spark session
 spark = SparkSession.builder.appName("ADLS to Snowflake ETL").getOrCreate()
 
